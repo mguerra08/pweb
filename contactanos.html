@@ -43,31 +43,38 @@
                 <i class="fa-brands fa-twitter"></i>
             </div>
             </div>
-            <div class="contenedor-formulario">
-                <h1>Contacto:</h1>
-                <p>Si deseas más información sobre nuestros 
-                    servicios dejanos tus datos y nos comunicaremos
-                    contigo.</p>
-                <form action="#">
-                    <div class="formulario">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" name="nombre" placeholder="Escribe aquí">
+            
+            <form action="https://formsubmit.co/4todiazyacsahuangaanthony@gmail.com" method="POST">
+
+                <h2>Contacto</h2>
+        
+                <div class="input-group">
+        
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+        
+                    <label for="phone">Telefono</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Teléfono">
+        
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+        
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+        
+                    <div class="form-txt">
+                        <a href="#">Política de privacidad</a>
+                        <a href="#">Términos y condiciones</a>
                     </div>
-                    <div class="formulario">
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" name="apellido" placeholder="Escribe aquí">
-                    </div>
-                    <div class="formulario">
-                        <label for="correo">Correo electrónico:</label>
-                        <input type="text" name="correo" placeholder="Escribe aquí">
-                    </div>
-                    <div class="formulario">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí"></textarea>
-                    </div>
-                    <button class="enviar">Enviar</button>
-                </form>
-            </div>
+        
+                    <input class="btn" type="submit" value="Enviar">
+        
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+        
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+        
+            </form>
         </section>
     </main>
 </body>
