@@ -51,7 +51,6 @@ input, textarea {
     background-color: #EDFFF0;
     border: 2px solid #F0FAF1;
     color: #283629;
-    outline: none;
 }
 
 input::placeholder, textarea::placeholder {
