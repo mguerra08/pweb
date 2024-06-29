@@ -19,11 +19,11 @@ section {
     opacity: .5;
 }
 
+
 form {
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
     border-radius: 20px;
-    text-align: center;
     width: 340px;
 }
 
@@ -74,9 +74,9 @@ input::placeholder, textarea::placeholder {
 }
 
 .btn {
+    margin-left: auto;
     font-size: 16px;
     color: #FFFFFF;
-    border: 0;
     border-radius: 25px;
     background-color: #51D94C;
     box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
