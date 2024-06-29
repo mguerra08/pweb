@@ -2,8 +2,7 @@ section {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .logo img {
@@ -12,7 +11,6 @@ section {
     border-radius: 50%;
     opacity: .5;
 }
-
 
 form {
     padding: 50px 55px;
