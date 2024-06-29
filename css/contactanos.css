@@ -5,6 +5,13 @@ section {
     justify-content: space-around;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo img {
     width: 700px; 
     height: 700px;
