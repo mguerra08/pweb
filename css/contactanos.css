@@ -4,10 +4,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
-.logo {
-    float: left;
 }
+
 .logo img {
     width: 700px; 
     height: 700px;
@@ -15,7 +13,6 @@ section {
     opacity: .5;
 }
 
-}
 
 form {
     padding: 50px 55px;
@@ -87,7 +84,7 @@ input::placeholder, textarea::placeholder {
 
 @media(max-width:991px) {
 
-    body {
+    section {
         padding: 30px;
     }
 
