@@ -19,6 +19,11 @@ section {
     opacity: .5;
 }
 
+.logos-redes i {
+    font-size: 45px;
+    margin: 0 40px;
+}
+
 form {
     padding: 50px 55px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
