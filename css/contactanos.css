@@ -1,5 +1,9 @@
-section {
+body {
     background-color: #FFF4E8;
+    margin: 0;
+    padding: 0;
+}
+section {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
@@ -102,7 +106,7 @@ input::placeholder, textarea::placeholder {
 }
 
 footer {
-    margin: 0;
+    margin-top: 45px;
     padding: 5px 15px 5px 15px;
     background-color: #59861F;
     font-family: Arial, sans-serif;
@@ -111,7 +115,7 @@ footer {
 .row1 {
     display: flex;
     justify-content: space-around;
-    font-size: 15px;
+    font-size: 20px;
 }
 .row2 {
     display: flex;
