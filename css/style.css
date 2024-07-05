@@ -16,11 +16,20 @@ body {
 header {
     width: 100%;
     height: 50vh;
-    background: #FFF4E8;
+    background: #000000;
     background-image: url(../img/index/PROCESO.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+nav {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container-header {
@@ -40,8 +49,89 @@ header {
 }
 
 .logo-title h4 {
-    color: #fff;
+    color: #59861F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 100;
     margin-left: 10px;
     margin-top: 20px;
+}
+
+.bar-btn {
+    font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgb(60, 60, 60, 0.95);
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all 0.5s;
+}
+
+.nav-menu li a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active,
+.nav-menu li a:hover {
+    color: #59861F;
+    transition: 0.3s;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .nav-menu {
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li {
+    display: block;
+}
+
+.banner-text{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.banner-text p {
+    color: #fff;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.btn-a {
+    display: inline-block;
+    background-color: #59861F;
+    margin-top: 30px;
+    padding: 15px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-a:hover {
+    background-color: #3e6111;
 }
