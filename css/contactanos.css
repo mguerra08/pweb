@@ -130,8 +130,17 @@ footer {
     justify-content: space-around;
     font-size: 20px;
 }
+
 .row2 {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+}
+
+.copyright {
+    float: left
+}
+
+.hecho {
+    float: right
 }
