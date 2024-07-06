@@ -18,10 +18,6 @@ section {
     align-items: center;
 }
 
-.mapa-row1 img {
-    border-radius: 25%;
-}
-
 .logo-row2 {
     display: flex;
     flex-direction: column;
