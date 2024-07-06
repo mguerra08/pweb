@@ -125,22 +125,9 @@ footer {
     font-family: Arial, sans-serif;
     color: #fff;
 }
-.row1 {
+
+.row {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
-}
-
-.row2 {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
-}
-
-.copyright {
-    float: left;
-}
-
-.hecho {
-    float: right;
 }
