@@ -106,7 +106,7 @@ input::placeholder, textarea::placeholder {
     background-color: #50E04B;
 }
 
-@media(max-width:991px) {
+@media(max-width:778px) {
 
     section {
         padding: 30px;
