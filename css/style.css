@@ -59,7 +59,7 @@ nav {
 .bar-btn {
     font-size: 25px;
     color: #fff;
-    margin-left: 20px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
@@ -136,3 +136,41 @@ nav {
     background-color: #3e6111;
 }
 
+@media (min-width:768px) {
+    .logo {
+        margin: 0;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    nav {
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .bar-btn {
+        display: none;
+    }
+    
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    
+
+}
