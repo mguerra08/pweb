@@ -75,7 +75,7 @@ body {
 }
 
 .card:nth-of-type(2) .img__back {
-    background-image: url(../img/Nosotros/bg2.jpg);
+    background-image: url(../img/Nosotros/fon.jpg);
 }
 
 .card:hover .img__back {
