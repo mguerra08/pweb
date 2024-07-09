@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: #FFF4E8;
+    background-image: url(../img/Nosotros/mangos.png);
+    background-size: cover;
 }
     
 .container__cards {
@@ -15,7 +16,6 @@ body {
     margin: auto;
     margin-top: 100px;
     display: flex;
-
 }
 
 .figure {
@@ -67,15 +67,7 @@ body {
     background-size: cover;
     border-radius: 20px;
     transition: all 300ms;
-}
-
-
-.card:nth-of-type(1) .img__back {
-    background-image: url(../img/Nosotros/fon.jpg);
-}
-
-.card:nth-of-type(2) .img__back {
-    background-image: url(../img/Nosotros/bg2.jpg);
+    background-image: url('../img/Nosotros/fon.jpg');
 }
 
 .card:hover .img__back {
