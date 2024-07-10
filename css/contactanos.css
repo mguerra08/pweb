@@ -120,7 +120,7 @@ footer {
     font-size: 20px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1000px) {
     section {
         flex-direction: column;
         justify-content: center;
@@ -135,6 +135,9 @@ footer {
     }
     .contenedor-1-col {
         margin-bottom: 40px;
+    }
+    .contenedor-1-col img {
+        width: 450px;
     }
     footer .row {
         flex-direction: column;
