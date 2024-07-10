@@ -108,6 +108,22 @@ h2 {
     box-shadow: 0 0 20px rgba(25, 254, 0, 0.4); 
 }
 
+footer {
+    margin-top: 45px;
+    padding: 2px 15px 2px 15px;
+    background-color: #59861F;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+
 @media screen and (max-width:1200px) {
     .contenedor {
         position: relative;
@@ -117,18 +133,9 @@ h2 {
         margin-top: 100px;
         padding-bottom: 100px;
     }
+    footer .row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
-
-footer {
-    margin-top: 45px;
-    padding: 2px 15px 2px 15px;
-    background-color: #59861F;
-    font-family: Arial, sans-serif;
-    color: #fff;
-}
-
-.row {
-    display: flex;
-    justify-content: space-around;
-    font-size: 20px;
 }
