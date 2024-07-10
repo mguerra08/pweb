@@ -80,12 +80,15 @@ nav .fa-shopping-cart:hover {
 }
 
 #inicio {
+    background: url(../img/index/PROCESO.jpeg)
+    no-repeat center/cover #f9f9f5;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;align-items: flex-start;
     padding: 1vw 8vw;
+    opacity: 0.5;
 }
 
 #inicio h1 {
