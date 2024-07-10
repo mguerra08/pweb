@@ -66,4 +66,24 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #3c5e10;
+    text-decoration: underline;
+}
+
+nav .fa-shopping-cart { 
+    font-size: 20px;
+    cursor: pointer;
+    color: #59861F;
+    transition: color 0.3s ease;
+}
+nav .fa-shopping-cart:hover {
+    color: #3c5e10;
+}
+
+#inicio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: flex-start;
+    padding: 1vw 8vw;
 }
