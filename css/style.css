@@ -87,3 +87,32 @@ nav .fa-shopping-cart:hover {
     justify-content: center;align-items: flex-start;
     padding: 1vw 8vw;
 }
+
+#inicio h1 {
+    color: #59861F;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+#inicio h1 p {
+    width: 80%;
+    color: #59861F;
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+#inicio .btn-inicio {
+    background-color: #3c5e10;
+    padding: 13px 35px;
+    color: #FFF4E8;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#inicio .btn-inicio:hover {
+    opacity: 0.9;
+}
