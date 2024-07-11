@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
 }
 
 body {
@@ -29,7 +28,6 @@ body {
     width: 300px;
     margin: 100px;
     transition: all 300 ms;
-
 }
 
 .card:hover {
