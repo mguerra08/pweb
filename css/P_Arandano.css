@@ -1,13 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 *{
     margin: 15px;;
     padding:5px;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Roboto-Serif" serif;
 }
 .banner{
     width: 140%;
     height: 600px;
-    animation: banner 10s infinite linear alternate;
+    animation: banner 15s infinite linear alternate;
     background-size: 100% 100%;
     position: relative;
     display:flex;
@@ -36,7 +37,8 @@
     top: -15px;
     left: -15px;
     border-radius: 20px;
-    background: rgba(0,0,0,0.50);
+    background: rgba(76, 237, 243, 0.123);
+    opacity: 0.7;
 }
 .info{
     z-index: 1;
@@ -53,16 +55,12 @@
 .info p{
     z-index: 1;
     color: white;
-    line-height: 1.7;
-    margin-bottom: 30px;
-}
-.info img{
-        display: inline-block;
-        border-radius: 20px
+    line-height: 1.;
+    margin-bottom: 100px;
 }
 .ED{
-    width: 140%;
-    height: 400px;
+    width: 160%;
+    height: 600px;
     background-size: 60% 60%;
     position: relative;
     display:flex;
@@ -77,12 +75,31 @@
     top: -15px;
     left: -15px;
     border-radius: 20px;
-    background: rgba(6, 75, 21, 0.438);
+    background: rgba(6, 75, 21, 0.404);
+
 }
-.info p{
+.info h2{
+    color: #032207;
+    font-size: 30px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.info h3{
+    color: #466e11;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.info li{
     z-index: 1;
     color: white;
-    line-height: 1.7;
-    margin-bottom: 30px;
+    line-height: 1;
+    margin-bottom: 10px;
 }
-
+.info img{
+    display: inline-block;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
