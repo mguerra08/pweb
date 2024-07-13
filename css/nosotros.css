@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -9,13 +8,6 @@ body {
     background-image: url(../img/Nosotros/mangos.png);
     background-size: cover;
 }
-    
-.container__cards {
-    max-width: 1500px;
-    margin: auto;
-    margin-top: 100px;
-    display: flex;
-}
 
 .figure {
     margin: auto;
@@ -24,25 +16,19 @@ body {
     justify-content: center;
 }
 
-.card {
-    width: 300px;
-    margin: 100px;
-    transition: all 300 ms;
+.cont:hover {
+    width: 100%;
+    height: 650px;
 }
 
-.card:hover {
-    width: 350px;
-    height: 300px;
-}
-
-.card .cover {
+.cont .cover {
     width: 100%;
     height:250px;
     position: relative;
     overflow: hidden;
 }
 
-.card .cover img {
+.cont .cover img {
     width: 140px;
     display: block;
     margin: auto;
@@ -53,11 +39,11 @@ body {
     transition: all 400ms;
 }
 
-.card:hover .cover img {
+.cont:hover .cover img {
     top: 0px;
 }
 
-.card .img__back {
+.cont .img__back {
     width: 100%;
     height: 328px;
     bottom: -80px;
@@ -68,11 +54,11 @@ body {
     transition: all 300ms;
 }
 
-.card:hover .img__back {
+.cont:hover .img__back {
     bottom: -40px;
 }
 
-.card .description  {
+.cont .description  {
     background-color: #AECC87;
     margin-top: -10px;
     padding: 20px;
@@ -80,11 +66,21 @@ body {
     transition: all 300ms;  
 }
 
-.card:hover .description {
-    padding: 40px;
+.cont:hover .description {
+    padding: 30px;
 }
 
-.card .description p {
+.cont .description p {
     margin-top: 10px;
     text-align: center;
+}
+
+footer {
+    background-color: #59861F;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
 }
