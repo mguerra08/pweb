@@ -18,7 +18,10 @@ body {
 
 .cont:hover {
     width: 100%;
-    height: 650px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cont .cover {
