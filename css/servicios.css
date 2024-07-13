@@ -109,18 +109,13 @@ h2 {
 }
 
 footer {
-    margin-top: 45px;
-    padding: 2px 15px 2px 15px;
     background-color: #59861F;
-    font-family: Arial, sans-serif;
     color: #fff;
+    text-align: center;
 }
 
-.row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 15px;
+footer p {
+    margin: 0;
 }
 
 @media screen and (max-width:1200px) {
