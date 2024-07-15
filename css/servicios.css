@@ -9,7 +9,7 @@ section {
 
 h2 {
     margin: 40px auto !important; 
-    color: #1B5E1F;
+    color: #1B5E1F !important;
     display: flex;
     justify-content: center;
 }
