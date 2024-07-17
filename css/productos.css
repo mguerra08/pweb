@@ -31,11 +31,11 @@ justify-content: center;
     transform: rotateY(180deg);
 }
 .card{
-    width: 350px;
-    height: 400px;
+    width: 300px;
+    height: 550px;
     position: relative;
     transform-style: preserve-3d;
-    transition: all 900ms;
+    transition: all 1000ms;
 }
 
 .card__front{
@@ -108,6 +108,6 @@ justify-content: center;
 }
 
 .body__card_back input:hover{
-    box-shadow: 1px 1px 30px 0px #F58634;
+    box-shadow: 1px 1px 30px 0px #001ea5;
 
 }
