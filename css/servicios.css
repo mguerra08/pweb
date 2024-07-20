@@ -86,11 +86,15 @@ h2 {
     box-shadow: 0 0 20px rgba(25, 254, 0, 0.4); 
 }
 
-.cont-1 p, .cont-1 h3 {
-    color: #1B5E1F;
+.cont-1 h3 {
+    color:#1B5E1F;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 25px;
+}
+
+.cont-1 p {
+    color: #1B5E1F;
 }
 
 .video-container video {
@@ -98,6 +102,7 @@ h2 {
     height: 100%;
     border-radius: 20px;
 }
+
 
 footer {
     background-color: #59861F;
