@@ -100,7 +100,7 @@ h2 {
     border-radius: 20px;
 }
 
-.c1 {
+.c1, .c2, .c3 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -117,14 +117,6 @@ h2 {
     margin-bottom: 20px;
 }
 
-.c2 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px !important;
-}
-
 .c2:hover {
     box-shadow: 10px 10px 100px rgba(140, 211, 7, 0.6)
 }
@@ -132,14 +124,6 @@ h2 {
 .contenido-aguacates h3 {
     color: #2b7930;
     margin-bottom: 20px;
-}
-
-.c3 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px !important;
 }
 
 .c3:hover {
