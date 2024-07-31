@@ -103,6 +103,109 @@ h2 {
     border-radius: 20px;
 }
 
+.c1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px !important;
+}
+
+.c1:hover {
+    box-shadow: 10px 10px 100px rgba(255, 165, 0, 0.6);
+}
+
+.contenido-mangos h3 {
+    color: #F58634;
+    margin-bottom: 20px;
+}
+
+.c2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px !important;
+}
+
+.c2:hover {
+    box-shadow: 10px 10px 100px rgba(140, 211, 7, 0.7)
+}
+
+.contenido-aguacates h3 {
+    color: #2b7930;
+    margin-bottom: 20px;
+}
+
+.contenido-mangos, .contenido-aguacates {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px !important;
+    width: 100%;
+}
+
+.video-empaquetamiento-mangos video, .video-empaquetamiento-aguacates video {
+    width: 100%;
+    height: 300px !important;
+    border-radius: 20px;
+}
+
+.fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fondo-aguacate-1, .fondo-mango-1 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 10px;
+    left: 0;
+}
+
+.fondo-aguacate-2, .fondo-mango-2 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 190px;
+    right: 0; 
+}
+
+.fondo-aguacate-3, .fondo-mango-3 {
+    position: absolute;
+    width: 20%;
+    height: auto; 
+    top: 190px;
+    left: 0;
+}
+
+.fondo-aguacate-4, .fondo-mango-4 {
+    position: absolute;
+    width: 20%;
+    height: auto; 
+    top: 120px;
+    right: 20%;
+}
+
+.fondo-aguacate-5, .fondo-mango-5 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 120px;
+    left: 20%;
+}
+
+.fondo-aguacate-6, .fondo-mango-6 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 10px;
+    right: 0; 
+}
 
 footer {
     background-color: #59861F;
