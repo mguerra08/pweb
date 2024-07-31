@@ -137,7 +137,24 @@ h2 {
     margin-bottom: 20px;
 }
 
-.contenido-mangos, .contenido-aguacates {
+.c3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px !important;
+}
+
+.c3:hover {
+    box-shadow: 10px 10px 100px rgba(64, 49, 155, 0.6);
+}
+
+.contenido-arandano h3 {
+    color: #40319B;
+    margin-bottom: 20px;
+}
+
+.contenido-mangos, .contenido-aguacates, .contenido-arandano {
     position: relative;
     z-index: 2;
     display: flex;
@@ -147,7 +164,7 @@ h2 {
     width: 100%;
 }
 
-.video-empaquetamiento-mangos video, .video-empaquetamiento-aguacates video {
+.video-empaquetamiento-mangos video, .video-empaquetamiento-aguacates video, .video-empaquetamiento-arandano video {
     width: 100%;
     height: 300px !important;
     border-radius: 20px;
@@ -159,7 +176,7 @@ h2 {
     object-fit: cover;
 }
 
-.fondo-aguacate-1, .fondo-mango-1 {
+.fondo-aguacate-1, .fondo-mango-1, .fondo-arandano-1 {
     position: absolute;
     width: 20%; 
     height: auto; 
@@ -167,7 +184,7 @@ h2 {
     left: 0;
 }
 
-.fondo-aguacate-2, .fondo-mango-2 {
+.fondo-aguacate-2, .fondo-mango-2, .fondo-arandano-2 {
     position: absolute;
     width: 20%; 
     height: auto; 
@@ -175,7 +192,7 @@ h2 {
     right: 0; 
 }
 
-.fondo-aguacate-3, .fondo-mango-3 {
+.fondo-aguacate-3, .fondo-mango-3, .fondo-arandano-3 {
     position: absolute;
     width: 20%;
     height: auto; 
@@ -183,7 +200,7 @@ h2 {
     left: 0;
 }
 
-.fondo-aguacate-4, .fondo-mango-4 {
+.fondo-aguacate-4, .fondo-mango-4, .fondo-arandano-4 {
     position: absolute;
     width: 20%;
     height: auto; 
@@ -191,7 +208,7 @@ h2 {
     right: 20%;
 }
 
-.fondo-aguacate-5, .fondo-mango-5 {
+.fondo-aguacate-5, .fondo-mango-5, .fondo-arandano-5 {
     position: absolute;
     width: 20%; 
     height: auto; 
@@ -199,7 +216,7 @@ h2 {
     left: 20%;
 }
 
-.fondo-aguacate-6, .fondo-mango-6 {
+.fondo-aguacate-6, .fondo-mango-6, .fondo-arandano-6 {
     position: absolute;
     width: 20%; 
     height: auto; 
