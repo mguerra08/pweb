@@ -166,6 +166,11 @@ h2 {
     box-shadow: 10px 10px 100px rgba(133, 71, 182, 0.6);
 }
 
+.contenido-uva h3 {
+    color: #8547B6;
+    margin-bottom: 20px;
+}
+
 .contenido-mangos, .contenido-aguacates, .contenido-arandano, .contenido-uva {
     position: relative;
     z-index: 2;
