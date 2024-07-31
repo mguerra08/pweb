@@ -129,7 +129,7 @@ h2 {
 }
 
 .c2:hover {
-    box-shadow: 10px 10px 100px rgba(140, 211, 7, 0.7)
+    box-shadow: 10px 10px 100px rgba(140, 211, 7, 0.6)
 }
 
 .contenido-aguacates h3 {
@@ -154,7 +154,19 @@ h2 {
     margin-bottom: 20px;
 }
 
-.contenido-mangos, .contenido-aguacates, .contenido-arandano {
+.c4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px !important;
+}
+
+.c4:hover {
+    box-shadow: 10px 10px 100px rgba(133, 71, 182, 0.6);
+}
+
+.contenido-mangos, .contenido-aguacates, .contenido-arandano, .contenido-uva {
     position: relative;
     z-index: 2;
     display: flex;
@@ -164,7 +176,7 @@ h2 {
     width: 100%;
 }
 
-.video-empaquetamiento-mangos video, .video-empaquetamiento-aguacates video, .video-empaquetamiento-arandano video {
+.video-empaquetamiento-mangos video, .video-empaquetamiento-aguacates video, .video-empaquetamiento-arandano video, .video-empaquetamiento-uva video {
     width: 100%;
     height: 300px !important;
     border-radius: 20px;
@@ -176,7 +188,7 @@ h2 {
     object-fit: cover;
 }
 
-.fondo-aguacate-1, .fondo-mango-1, .fondo-arandano-1 {
+.fondo-aguacate-1, .fondo-mango-1, .fondo-arandano-1, .fondo-uva-1 {
     position: absolute;
     width: 20%; 
     height: auto; 
@@ -184,7 +196,7 @@ h2 {
     left: 0;
 }
 
-.fondo-aguacate-2, .fondo-mango-2, .fondo-arandano-2 {
+.fondo-aguacate-2, .fondo-mango-2, .fondo-arandano-2, .fondo-uva-2 {
     position: absolute;
     width: 20%; 
     height: auto; 
@@ -192,7 +204,7 @@ h2 {
     right: 0; 
 }
 
-.fondo-aguacate-3, .fondo-mango-3, .fondo-arandano-3 {
+.fondo-aguacate-3, .fondo-mango-3, .fondo-arandano-3, .fondo-uva-3 {
     position: absolute;
     width: 20%;
     height: auto; 
@@ -200,7 +212,7 @@ h2 {
     left: 0;
 }
 
-.fondo-aguacate-4, .fondo-mango-4, .fondo-arandano-4 {
+.fondo-aguacate-4, .fondo-mango-4, .fondo-arandano-4, .fondo-uva-4 {
     position: absolute;
     width: 20%;
     height: auto; 
@@ -208,7 +220,7 @@ h2 {
     right: 20%;
 }
 
-.fondo-aguacate-5, .fondo-mango-5, .fondo-arandano-5 {
+.fondo-aguacate-5, .fondo-mango-5, .fondo-arandano-5, .fondo-uva-5 {
     position: absolute;
     width: 20%; 
     height: auto; 
@@ -216,7 +228,7 @@ h2 {
     left: 20%;
 }
 
-.fondo-aguacate-6, .fondo-mango-6, .fondo-arandano-6 {
+.fondo-aguacate-6, .fondo-mango-6, .fondo-arandano-6, .fondo-uva-6 {
     position: absolute;
     width: 20%; 
     height: auto; 
