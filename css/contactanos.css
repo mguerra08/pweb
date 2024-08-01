@@ -37,12 +37,12 @@ section {
   
 .imagen-1 {
     opacity: 1;
-    animation: fade-out 20s infinite;
+    animation: fade-out 15s infinite;
 }
   
 .imagen-2 {
     opacity: 0;
-    animation: fade-in 20s infinite;
+    animation: fade-in 15s infinite;
 }
   
 @keyframes fade-out {
