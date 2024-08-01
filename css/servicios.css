@@ -1,10 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
-}
-
-section {
-    background-color: #FFF4E8;
+    background-color: #FFF4E8 !important;
 }
 
 h2 {
@@ -16,7 +13,7 @@ h2 {
 
 .productos {
     margin: 40px 10px;
-    min-width: 300px;
+    width: 300px !important;
     padding: 20px;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     background-color: rgba(89, 134, 31, 0.34);
@@ -84,6 +81,145 @@ h2 {
     border-color: #59861F;
     color:#1B5E1F;
     box-shadow: 0 0 20px rgba(25, 254, 0, 0.4); 
+}
+
+.cont-1 h3 {
+    color:#1B5E1F;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.cont-1 p {
+    color: #1B5E1F;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.c1, .c2, .c3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px !important;
+}
+
+.c1:hover {
+    box-shadow: 10px 10px 100px rgba(255, 165, 0, 0.6);
+}
+
+.contenido-mangos h3 {
+    color: #F58634;
+    margin-bottom: 20px;
+}
+
+.c2:hover {
+    box-shadow: 10px 10px 100px rgba(140, 211, 7, 0.6)
+}
+
+.contenido-aguacates h3 {
+    color: #2b7930;
+    margin-bottom: 20px;
+}
+
+.c3:hover {
+    box-shadow: 10px 10px 100px rgba(64, 49, 155, 0.6);
+}
+
+.contenido-arandano h3 {
+    color: #40319B;
+    margin-bottom: 20px;
+}
+
+.c4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px !important;
+}
+
+.c4:hover {
+    box-shadow: 10px 10px 100px rgba(133, 71, 182, 0.6);
+}
+
+.contenido-uva h3 {
+    color: #8547B6;
+    margin-bottom: 20px;
+}
+
+.contenido-mangos, .contenido-aguacates, .contenido-arandano, .contenido-uva {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px !important;
+    width: 100%;
+}
+
+.video-empaquetamiento-mangos video, .video-empaquetamiento-aguacates video, .video-empaquetamiento-arandano video, .video-empaquetamiento-uva video {
+    width: 100%;
+    height: 300px !important;
+    border-radius: 20px;
+}
+
+.fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fondo-aguacate-1, .fondo-mango-1, .fondo-arandano-1, .fondo-uva-1 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 10px;
+    left: 0;
+}
+
+.fondo-aguacate-2, .fondo-mango-2, .fondo-arandano-2, .fondo-uva-2 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 190px;
+    right: 0; 
+}
+
+.fondo-aguacate-3, .fondo-mango-3, .fondo-arandano-3, .fondo-uva-3 {
+    position: absolute;
+    width: 20%;
+    height: auto; 
+    top: 190px;
+    left: 0;
+}
+
+.fondo-aguacate-4, .fondo-mango-4, .fondo-arandano-4, .fondo-uva-4 {
+    position: absolute;
+    width: 20%;
+    height: auto; 
+    top: 120px;
+    right: 20%;
+}
+
+.fondo-aguacate-5, .fondo-mango-5, .fondo-arandano-5, .fondo-uva-5 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 120px;
+    left: 20%;
+}
+
+.fondo-aguacate-6, .fondo-mango-6, .fondo-arandano-6, .fondo-uva-6 {
+    position: absolute;
+    width: 20%; 
+    height: auto; 
+    top: 10px;
+    right: 0; 
 }
 
 footer {
