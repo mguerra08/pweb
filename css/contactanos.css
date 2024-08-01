@@ -14,9 +14,60 @@ section {
     max-width: 500px;
 }
 
-.cover-2 img {
+.logo-mapa {
+    position: relative;
     width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+}
+
+.logo-mapa img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.imagen-1,.imagen-2 {
+    position: absolute;
     max-width: 500px;
+    width: 100%;
+    height: 100%;
+}
+  
+.imagen-1 {
+    opacity: 1;
+    animation: fade-out 20s infinite;
+}
+  
+.imagen-2 {
+    opacity: 0;
+    animation: fade-in 20s infinite;
+}
+  
+@keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
 }
 
 .cont{
