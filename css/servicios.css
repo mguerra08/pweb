@@ -171,7 +171,6 @@ h2 {
 .fondo img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .fondo-aguacate-1, .fondo-mango-1, .fondo-arandano-1, .fondo-uva-1 {
