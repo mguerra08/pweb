@@ -127,6 +127,7 @@ form input::placeholder, form textarea::placeholder {
 .cont-logos i {
     padding: 0 25px;
     font-size: 40px;
+    color: black;
 }
 
 footer {
