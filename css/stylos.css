@@ -3,3 +3,7 @@
 .navbar {
     background-color: #FFF4E8 !important;
 }
+
+.navbar-nav .nav-link{
+    color: #59861F !important;
+}
