@@ -7,6 +7,26 @@ section {
     background-color: #FFF4E8;
 }
 
+.banner-contactanos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.banner-contactanos h1, .banner-contactanos p {
+    color: #F58634;
+}
+
+.banner-contactanos h1 {
+    margin-bottom: 20px !important;
+}
+
+.banner-contactanos p {
+    text-align: center;
+}
+
 .c1{
     display: flex;
     justify-content: center;
