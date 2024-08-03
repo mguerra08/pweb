@@ -92,6 +92,8 @@ h2 {
 
 .cont-1 p {
     color: #1B5E1F;
+    display: flex;
+    text-align: center;
 }
 
 .video-container video {
