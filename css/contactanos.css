@@ -7,11 +7,75 @@ section {
     background-color: #FFF4E8;
 }
 
-.cover-1 img {
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    background-color: #CAC6C6;
+    padding: 35px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px !important;
+    color: #335535 !important;
+}
+
+form label {
+    color: #335535 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    margin-bottom: 10px !important;
+}
+
+form input, form textarea {
+    padding: 15px !important;
+    border-radius: 5px !important;
+    background-color: #FFFFFF !important;
+    border: 2px solid #F0FAF1 !important;
+    color: #2b7930 !important;
+    width: 100% !important;
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: #b5cab6 !important;
+    font-size: 15px !important;
+}
+
+.btn.btn-primary {
+    background-color: #F58634 !important;
+    border: none;
+}
+
+.btn.btn-primary:hover {
+    background-color: rgb(255, 174, 0) !important;
+    border: none;
+}
+
+.cover {
+    margin-bottom: 40px;
+}
+
+.cover img {
     width: 100%;
     border-radius: 50%;
     opacity: 0.5;
-    max-width: 500px;
+    max-width: 400px;
+}
+
+.text {
+    color:#2b7930;
+    margin-bottom: 20px;
 }
 
 .logo-mapa {
@@ -67,61 +131,6 @@ section {
     100% {
       opacity: 0;
     }
-}
-
-.cont{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-form {
-    background-color: #CAC6C6;
-    padding: 35px 40px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-    width: 100%;
-    max-width: 500px;
-    margin: 40px;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px !important;
-    color: #335535 !important;
-}
-
-form label {
-    color: #335535 !important;
-    font-size: 15px !important;
-    font-weight: 600 !important;
-    margin-bottom: 10px !important;
-}
-
-form input, form textarea {
-    padding: 15px !important;
-    border-radius: 5px !important;
-    background-color: #FFFFFF !important;
-    border: 2px solid #F0FAF1 !important;
-    color: #2b7930 !important;
-    width: 100% !important;
-}
-
-form input::placeholder, form textarea::placeholder {
-    color: #b5cab6 !important;
-    font-size: 15px !important;
-}
-
-.btn.btn-primary {
-    background-color: #F58634 !important;
-    border: none;
-}
-
-.btn.btn-primary:hover {
-    background-color: rgb(255, 174, 0) !important;
-    border: none;
 }
 
 .cont-logos i {
