@@ -4,11 +4,24 @@ body {
     background-color: #FFF4E8 !important;
 }
 
-h2 {
-    margin: 40px auto !important; 
-    color: #1B5E1F !important;
+.banner-servicios {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.banner-servicios h1, .banner-servicios p {
+    color: #1B5E1F;
+}
+
+.banner-servicios h1 {
+    margin-bottom: 20px !important;
+}
+
+.banner-servicios p {
+    text-align: center;
 }
 
 .productos {
