@@ -15,3 +15,8 @@
 .navbar-toggler:focus {
     box-shadow: none;
 }
+
+#menuToggler {
+    color: #3c5e10;
+}
+
