@@ -6,6 +6,20 @@
     font-family: "Roboto-Serif" serif;
 }
 
+.Ban{
+    max-width: 100%;
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center
+}
+.Texto{
+    margin: 0%;
+    color: #ffffff;
+    font-size: 80%;
+    text-align:center;
+    background-color: #0A4C03;
+}
 
 .banner{
     width: 100%;
@@ -20,27 +34,27 @@
 }
 @keyframes banner{
     0%,20%{
-        background-image:url(/pweb/img/Productos/Aguacate/A2.jpg);
+        background-image:url(../img/Productos/Aguacate/A2.jpg);
     }
     25%,45%{
-        background-image:url(/pweb/img/Productos/Aguacate/A3.jpg);
+        background-image:url(../img/Productos/Aguacate/A3.jpg);
     }
     50%,70%{
-        background-image:url(/pweb/img/Productos/Aguacate/A4.jpeg);
+        background-image:url(../img/Productos/Aguacate/A4.jpeg);
     }
     75%,100%{
-        background-image:url(/pweb/img/Productos/Aguacate/A5.jpg);
+        background-image:url(../img/Productos/Aguacate/A5.jpg);
     }
 }
 .contenido{
 
     width: 80%;
-    height: 30%;
+    height: 36%;
     position:absolute;
-    top: 10%;
+    top: 15%;
     left: 10%;
     border-radius: 20px;
-    background: rgba(46, 114, 55, 0.884);;
+    background: rgba(5, 34, 9, 0.719);
 }
 
 .info{
@@ -60,15 +74,15 @@
     font-size: 130%;
     }
 .ED{
-    width: 5%;
-    height: 65%;
+    width: 4%;
+    height: 80%;
     background-size: 60% 60%;
     position: absolute;
     display:flex;
     justify-content:center;
     align-items:center;
     border-radius: 20px;
-    top: 38%;
+    top: 50%;
     left:27%;
 }
 .capa_ed{
@@ -76,7 +90,7 @@
     height: 80%;
     position:absolute;
     border-radius: 20px;
-    background: rgba(46, 114, 55, 0.678);
+    background: rgba(5, 34, 9, 0.24);
 }
 .info h2{
     margin: 5%;

@@ -6,6 +6,20 @@
     font-family: "Roboto-Serif" serif;
 }
 
+.Ban{
+    max-width: 100%;
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center
+}
+.Texto{
+    margin: 0%;
+    color: #ffffff;
+    font-size: 80%;
+    text-align:center;
+    background-color: #0A4C03;
+}
 
 .banner{
     width: 100%;
@@ -34,13 +48,13 @@
 }
 .contenido{
 
-    width: 90%;
-    height: 30%;
+    width: 80%;
+    height: 35%;
     position:absolute;
-    top: 2%;
-    left: 3%;
+    top: 15%;
+    left: 5%;
     border-radius: 20px;
-    background: rgba(236, 130, 43, 0.548);
+    background: rgba(51, 8, 87, 0.808);
 }
 
 .info{
@@ -50,7 +64,7 @@
 }
 .info h1{
     margin: 3%;
-    color: #04380b;
+    color: #000000;
     font-size: 300%;
 }
 .info p{
@@ -61,26 +75,26 @@
     }
 .ED{
     width: 5%;
-    height: 68%;
+    height: 60%;
     background-size: 60% 60%;
     position: absolute;
     display:flex;
     justify-content:center;
     align-items:center;
     border-radius: 20px;
-    top: 32%;
-    left:20%;
+    top: 45%;
+    left:23%;
 }
 .capa_ed{
     width: 750%;
     height: 70%;
     position:absolute;
     border-radius: 20px;
-    background: rgba(131, 91, 163, 0.863);
+    background: rgba(51, 8, 87, 0.411);
 }
 .info h2{
     margin: 5%;
-    color: #04380b;
+    color: #000000;
     position: center;
     font-size: 30px;
     margin-bottom: 20px;
@@ -88,7 +102,7 @@
 }
 .info h3{
     margin: 2%;
-    color: #04380b;
+    color: #000000;
     text-align: left;
     font-size: 25px;
 }
@@ -106,7 +120,7 @@
     float:right;
     max-width:  500px; 
     margin: 200px;
-    margin-top: 210px;
+    margin-top: 260px;
     height: 400px;
     perspective: 1000px;
   }

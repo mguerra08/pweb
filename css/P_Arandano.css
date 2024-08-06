@@ -6,6 +6,21 @@
     font-family: "Roboto-Serif" serif;
 }
 
+.Ban{
+    max-width: 100%;
+    margin: auto;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center
+}
+.Texto{
+    margin: 0%;
+    color: #ffffff;
+    font-size: 80%;
+    text-align:center;
+    background-color: #0A4C03;
+}
+
 
 .banner{
     width: 100%;
@@ -34,13 +49,13 @@
 }
 .contenido{
 
-    width: 65%;
+    width: 80%;
     height: 30%;
     position:absolute;
-    top: 10%;
+    top: 15%;
     left: 10%;
     border-radius: 20px;
-    background: rgba(91, 98, 163, 0.863);
+    background: rgba(13, 20, 88, 0.788);
 }
 
 .info{
@@ -60,23 +75,23 @@
     font-size: 130%;
     }
 .ED{
-    width: 5%;
-    height: 65%;
+    width: 6%;
+    height: 75%;
     background-size: 60% 60%;
     position: absolute;
     display:flex;
     justify-content:center;
     align-items:center;
     border-radius: 20px;
-    top: 32%;
-    left:22%;
+    top: 38%;
+    left:27%;
 }
 .capa_ed{
     width: 600%;
     height: 65%;
     position:absolute;
     border-radius: 20px;
-    background: rgba(91, 98, 163, 0.445);
+    background: rgba(13, 21, 88, 0.39);
 }
 .info h2{
     margin: 5%;
