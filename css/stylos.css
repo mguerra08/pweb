@@ -94,6 +94,16 @@ body {
     width: 50px;
 }
 
+@media only screen and (min-widtg: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .navbar-nav {
         text-align: center;
@@ -109,5 +119,11 @@ body {
 
     .carousel-caption a {
         padding: 10px 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
     }
 }
