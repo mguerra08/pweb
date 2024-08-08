@@ -14,10 +14,7 @@ section {
     height: 100%;
     animation: banner 15s infinite linear alternate;
     background-size: 100% 100%;
-    position:absolute;
-    display:flex;
-    justify-content:center;
-    align-items: center;
+    position:relative;
     opacity: 0.7;
 }
 
@@ -58,7 +55,6 @@ section {
 
 .capa_ed{
     float: left;
-    position:absolute;
     border-radius: 20px;
     background: rgba(91, 98, 163);
     padding: 25px;
