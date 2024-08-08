@@ -5,6 +5,10 @@ body {
     background-size: cover;
 }
 
+.container_cards {
+    margin-top: 75px;
+}
+
 .figure {
     display: flex;
     justify-content: center;
