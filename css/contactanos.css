@@ -12,7 +12,8 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px 0px !important;
+    margin-top: 25px !important;
+    margin-bottom: 15px !important;
 }
 
 .banner-contactanos h1, .banner-contactanos p {
