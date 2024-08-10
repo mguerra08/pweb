@@ -20,7 +20,7 @@ section {
 }
 
 .banner h1, .banner p {
-    color: #F58634;
+    color: #a514e9;
 }
 
 .banner h1 {
@@ -34,7 +34,12 @@ section {
 .contenedor-background {
     position: relative;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.contenedor {
+    padding: 25px 0;
 }
 
 .fondo {
@@ -58,9 +63,9 @@ section {
 }
 
 .texto-uva p {
-    padding-top: 20px;
-    font-size: 15px;
-    color: rgb(183, 0, 255);
+    font-size: 18px;
+    color: rgb(110, 6, 151);
+    font-weight: 500;
 }
 
 @keyframes fondo {
@@ -79,15 +84,22 @@ section {
 }
 
 .c1 {
-    background-color: rgba(58, 13, 88);
+    background-color: rgba(58, 13, 88, 0.7);
     border-radius: 20px;
     padding: 15px;
     z-index: 2;
-    margin: 0 50px;
+    margin: 30px;
+    width: 360px !important;
+    height: 100%;
 }
 
 .c1 h2, .c1 h3, .c1 li {
     color: black;
+}
+
+.c1 h2 {
+    display: flex;
+    justify-content: center;
 }
 
 .tem {
@@ -97,8 +109,8 @@ section {
     align-items: center;
     perspective: 1000px; 
     width: 100%;
-    height: 300px; 
-    margin-top: 20px;
+    height: 500px; 
+    margin: 30px 30px 0 30px;
 }
 
 .gira {
@@ -120,9 +132,10 @@ section {
     height: 100%;
     backface-visibility: hidden;
     border-radius: 20px;
-    display: flex; /* Añadir para usar flexbox */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .frente, .atras {
@@ -148,6 +161,6 @@ section {
 
 .atras img {
     width: 100%;
-    height: 150%;
+    height: 100%;
     border-radius: 20px;
 }
