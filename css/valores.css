@@ -15,23 +15,16 @@ body {
     margin: 70px;
 }
 
-.figures .cover {
-    margin: 0 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-}
-
-.images .cover {
-    margin: 0 100px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-}
-
 .figure {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.cover-1 {
+    margin-bottom: 50px;
+}
+
 
 .cont:hover {
     width: 100%;
@@ -207,4 +200,9 @@ h2 {
     margin-top: 40px;
     display: flex;
     justify-content: center;
+}
+
+.cover-1 img, .cover-2 img {
+    width: 100%;
+    height: 100%;
 }
