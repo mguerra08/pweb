@@ -104,14 +104,13 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     color: #1B5E1F;
     text-align: center;
-    padding: 60px;
+    padding: 60px 0;
     line-height: 0;  
 }
 
 h4 {
     color: #1B5E1F;
     text-align: center;
-    
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
