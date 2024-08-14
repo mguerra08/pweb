@@ -56,6 +56,19 @@ body {
     text-transform: uppercase;
     font-weight: 500;
 }
+.car{
+    background-color: #c7d3ce;
+    color: #3c5e10;
+    border: none;
+    border-radius: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.car:hover {
+    background-color: #d5f0b2;
+}
 
 .navbar-nav .nav-link{
     color: #3c5e10 !important;
