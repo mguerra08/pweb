@@ -112,18 +112,18 @@ p {
 }
 
 .valores {
-    margin: 30px 50px;
+    margin: 30px 30px;
     width: 300px;
     padding: 10px;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
     border-radius: 15px;
     transition: all 300ms;
+    display: flex;
+    justify-content: center;
 }
 
 .container__card {
-
     margin: auto;
     margin-top: 40px;
     display: flex;
@@ -131,7 +131,6 @@ p {
 }
 
 .card__father {
-    width: 350px;
     margin: 40px 10px;
     padding: 20px;
     transition: all 300ms;
