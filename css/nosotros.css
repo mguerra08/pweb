@@ -8,6 +8,7 @@
 
 body {
     background-color:#FFF4E8;
+    overflow-x: hidden;
 }
 
 .nosotros{
@@ -92,9 +93,6 @@ body {
 .contenedores { 
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 40px;
 }
 
 .cover-3 img {
