@@ -16,6 +16,10 @@ body {
     margin: 70px;
 }
 
+.c1 {
+    margin-top: 25px;
+}
+
 .figure {
     display: flex;
     justify-content: center;
