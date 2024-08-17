@@ -89,6 +89,24 @@ body {
     text-align: center;
 }
 
+.contenedores {
+    display: flex;
+}
+
+.cover-3 img {
+    width: 95%;
+    height: 95%;
+    margin-right: auto;
+    justify-content: center
+}
+
+.cover-4 img {
+    width: 95%;
+    height: 95%;
+    margin-left: auto;
+    justify-content: center;
+}
+
 
 
 h1 {
