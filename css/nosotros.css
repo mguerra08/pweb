@@ -134,6 +134,7 @@ p {
     border: none;
     text-align: center;
     min-width: 280px;
+    max-width: 310px;
     margin-bottom: 40px;
 }
 
@@ -178,4 +179,9 @@ p {
 .container_img {
     display: flex;
     justify-content: center;
+}
+
+.container_img img {
+    width: 100%;
+    height: 100%;
 }
