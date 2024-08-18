@@ -22,10 +22,14 @@ section {
 
 .banner-contactanos h1 {
     margin-bottom: 20px !important;
+    text-shadow: 2px 2px 5px rgba(240, 91, 4, 0.5);
+    font-weight: bold;
 }
 
 .banner-contactanos p {
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(240, 91, 4, 0.5);
+    font-size: 20px;
 }
 
 .c1{

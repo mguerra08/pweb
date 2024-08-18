@@ -19,10 +19,14 @@ body {
 
 .banner-servicios h1 {
     margin-bottom: 20px !important;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
 }
 
 .banner-servicios p {
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
 }
 
 .productos {
