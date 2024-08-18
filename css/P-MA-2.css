@@ -109,7 +109,7 @@ body {
 }
 @keyframes banner{
     0%,20%{
-        background-image:url(../img/Productos/Mango/M2.jpeg);
+        background-image:url(../img/Productos/Mango/M2.jpg);
     }
     25%,45%{
         background-image:url(../img/Productos/Mango/M3.jpg);
