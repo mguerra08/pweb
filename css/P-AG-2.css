@@ -9,7 +9,7 @@ body {
     border-radius: 20px;
     background: rgba(91, 112, 94, 0.24);
     color: #225a21;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .ED, .tem {
@@ -18,11 +18,20 @@ body {
     background: rgba(91, 112, 94, 0.24);
     color: #225a21;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .contenido, .ED, .tem {
     backdrop-filter: blur(1px);
     color: #175e1e;
+}
+
+.capa_contenido {
+    text-align: center;
+}
+
+.capa_ed h2{
+    text-align: center;
 }
 
 .contenido h1,
@@ -32,7 +41,6 @@ body {
 .capa_ed li {
     font-weight: bold;
 }
-
 
 .tem_father:hover .gira {
     transform: rotateY(180deg);
@@ -47,7 +55,7 @@ body {
     transform-style: preserve-3d;
     transition: all 600ms;
     border-radius: 20px;
-    margin: 0 auto; /* Centrar la imagen giratoria */
+    margin: 0 auto; 
 }
 
 .frente, .atras {
@@ -70,6 +78,10 @@ body {
     justify-content: center;
 }
 
+.cuerpo-atras img{
+    width: 100%;
+    height: 100%;
+}
 
 .Texto {
     margin: 0;

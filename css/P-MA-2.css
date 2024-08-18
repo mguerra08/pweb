@@ -8,7 +8,7 @@ body {
     border-radius: 20px;
     background: rgba(112, 55, 8, 0.24);
     color: #225a21;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .ED, .tem {
@@ -17,11 +17,20 @@ body {
     background: rgba(112, 55, 8, 0.24);
     color: #225a21;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .contenido, .ED, .tem {
     backdrop-filter: blur(1px);
-    color: #175e1e;
+    color: #886506;
+}
+
+.capa_contenido {
+    text-align: center;
+}
+
+.capa_ed h2{
+    text-align: center;
 }
 
 .contenido h1,
@@ -69,6 +78,10 @@ body {
     justify-content: center;
 }
 
+.cuerpo-atras img{
+    width: 100%;
+    height: 100%;
+}
 
 .Texto {
     margin: 0;
@@ -80,7 +93,7 @@ body {
 
 .titulo {
     text-align: center;
-    color: #16611e;
+    color: #886506;
 }
 
 .fondo {
