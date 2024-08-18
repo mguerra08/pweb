@@ -114,12 +114,12 @@ body {
         background-image: url(../img/Productos/Aguacate/A2.jpg);
     }
     25%, 45% {
-        background-image: url(../img/Productos/Aguacate/A3.jpg);
+        background-image: url(../img/Productos/Aguacate/A3.png);
     }
     50%, 70% {
-        background-image: url(../img/Productos/Aguacate/A4.jpeg);
+        background-image: url(../img/Productos/Aguacate/A4.png);
     }
     75%, 100% {
-        background-image: url(../img/Productos/Aguacate/A5.jpg);
+        background-image: url(../img/Productos/Aguacate/A5.png);
     }
 }
