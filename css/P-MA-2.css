@@ -7,8 +7,7 @@ body {
     padding: 20px;
     border-radius: 20px;
     background: rgba(112, 55, 8, 0.24);
-    color: #225a21;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .ED, .tem {
@@ -22,7 +21,7 @@ body {
 
 .contenido, .ED, .tem {
     backdrop-filter: blur(1px);
-    color: #886506;
+    color:  #291504;
 }
 
 .capa_contenido {
@@ -84,16 +83,16 @@ body {
 }
 
 .Texto {
-    margin: 0;
+    margin-top: 80px;
     color: #ffffff;
     font-size: 80%;
     text-align: center;
-    background-color: #0A4C03;
+    background-color: #291504;;
 }
 
 .titulo {
     text-align: center;
-    color: #886506;
+    color:  #291504;
 }
 
 .fondo {

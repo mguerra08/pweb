@@ -8,7 +8,7 @@ body {
     border-radius: 20px;
     background: rgba(13, 20, 88, 0.24);
     color: #41319a;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .ED, .tem {
@@ -84,11 +84,11 @@ body {
 }
 
 .Texto {
-    margin: 0;
+    margin-top: 80px;
     color: #ffffff;
     font-size: 80%;
     text-align: center;
-    background-color: #0A4C03;
+    background-color: #41319a;
 }
 
 .titulo {
