@@ -131,7 +131,12 @@ h4 {
     color: #1B5E1F;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
     margin-bottom: 40px;
+}
+
+.banner-valores h4 {
+    margin-bottom: 70px;
 }
 
 p {
