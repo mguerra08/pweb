@@ -32,7 +32,7 @@ section {
     font-size: 20px;
 }
 
-.c1{
+.cont-form{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,11 +87,11 @@ form input::placeholder, form textarea::placeholder {
     border: none;
 }
 
-.cover {
+.logo-FP {
     margin-bottom: 40px;
 }
 
-.cover img {
+.logo-FP img {
     width: 100%;
     border-radius: 50%;
     opacity: 0.5;
@@ -158,7 +158,7 @@ form input::placeholder, form textarea::placeholder {
     }
 }
 
-.cont-logos i {
+.logos-redes i {
     padding: 0 25px;
     font-size: 40px;
     color: black;
