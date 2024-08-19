@@ -84,11 +84,16 @@ body {
 }
 
 .Texto {
-    margin-top: 80px;
+    margin-top: 75px !important;
+    position: relative;
+}
+
+.Texto p{
     color: #ffffff;
     font-size: 80%;
     text-align: center;
     background-color: #41319a;
+    margin: 0;
 }
 
 .titulo {
