@@ -9,6 +9,25 @@
     background-color: #FFF4E8 !important;
 }
 
+.navbar ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    margin-bottom: -2px;
+    background: linear-gradient(to right, #855555, #65d555);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.8s ease-in-out;
+}
+
+.navbar ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 .navbar-nav a {
     font-size: 15px;
     text-transform: uppercase;
